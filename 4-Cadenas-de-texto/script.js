@@ -1,0 +1,10 @@
+let nombre = 'Emmanuel';
+let apellido = 'Salazar';
+let estudiane = `${nombre} ${apellido}`;
+let estudianeMayus = estudiane.toUpperCase();
+let estudianeMINUS = estudiane.toLocaleLowerCase();
+let conteoDeCaracteres = estudiane.length;
+let primerLetra = estudiane[0];
+let ultimaLetra = estudiane[estudiane.length - 1];
+let sinEspacios = estudiane.replace(' ', '');
+let buscarPalabra = estudiane.includes(nombre);
